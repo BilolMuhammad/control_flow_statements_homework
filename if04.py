@@ -8,14 +8,14 @@ def main(a, b, c):
     returns:
         integer: the number of positive numbers in the given numbers
     """
-    ans = 0
+    sum = 0
     if a > 0:
-        ans += 1
+        sum += 1
     if b > 0:
-        ans += 1
-    if b > 0:
-        ans += 1
-    return ans
+        sum += 1
+    if c > 0:
+        sum += 1
+    return sum
 
 
 print(main(-2, 4, 3))
