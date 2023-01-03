@@ -13,24 +13,17 @@ def main(a, b, c):
     Returns:
         string: string with the result
     """
-    p = 0
-    n = 0
+    sum = 0
     if a > 0:
-        p += 1
-    else:
-        n += 1
+        sum += 1
     if b > 0:
-        p += 1
-    else:
-        n += 1
+        sum += 1
     if c > 0:
-        p += 1
-    else:
-        n += 1
+        sum += 1
 
-    if p > n:
-        return 'there a lot of positive numbers'
-    return 'there a lot of negative numbers'
+    if sum > 1:
+        return "there are a lot of positive numbers"
+    return "there are a lot of negative numbers"
 
 
-print(main(2, -1, -6))
+print(main(2, 1, -6))
