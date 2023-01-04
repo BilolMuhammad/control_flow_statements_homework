@@ -18,9 +18,9 @@ def main(a):
             return "two-digit odd number"
     elif a > 99 and a < 1000 or a < -99 and a > -1000:
         if a % 2 == 0:
-            return 'three-digit even number'
+            return "three-digit even number"
         else:
-            return "three deigit odd number"
+            return "three-digit odd number"
 
 
 print(main(-181))
